@@ -14,17 +14,14 @@ class MainWin(QWidget):
        ''' the window which the greeting is located in '''
        super().__init__()
 
-
        # creating and configuring graphic elements:
        self.initUI()
 
        #establishes connections between elements
        self.connects()
 
-
        # sets what the window will look like (label, size, location)
        self.set_appear()
-
 
        # start:
        self.show()
@@ -35,7 +32,6 @@ class MainWin(QWidget):
        self.btn_next = QPushButton(txt_next, self)
        self.hello_text = QLabel(txt_hello)
        self.instruction = QLabel(txt_instruction)
-
 
        self.layout_line = QVBoxLayout()
        self.layout_line.addWidget(self.hello_text, alignment = Qt.AlignLeft)

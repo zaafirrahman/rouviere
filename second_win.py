@@ -15,18 +15,15 @@ class TestWin(QWidget):
        ''' the window in which the survey is being conducted '''
        super().__init__()
 
-
        # creating and configuring graphic elements:
        self.initUI()
-
 
        #establishes connections between elements
        self.connects()
 
-
        # sets what the window will look like (label, size, location)
        self.set_appear()
-      
+
        # start:
        self.show()
   
@@ -54,9 +51,6 @@ class TestWin(QWidget):
        self.btn_test2 = QPushButton(txt_starttest2, self)
        self.btn_test3 = QPushButton(txt_starttest3, self)
 
-
-
-
        self.text_name = QLabel(txt_name)
        self.text_age = QLabel(txt_age)
        self.text_test1 = QLabel(txt_test1)
@@ -66,19 +60,10 @@ class TestWin(QWidget):
 
 
        self.line_name = QLineEdit(txt_hintname)
-
-
        self.line_age = QLineEdit(txt_hintage)
-
-
        self.line_test1 = QLineEdit(txt_hinttest1)
-
-
        self.line_test2 = QLineEdit(txt_hinttest2)
-
-
        self.line_test3 = QLineEdit(txt_hinttest3)
-
 
        self.l_line = QVBoxLayout()
        self.r_line = QVBoxLayout()
