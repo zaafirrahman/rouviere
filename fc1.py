@@ -119,7 +119,7 @@ while True:
 
   if new_time - start_time  >= 11:
        win = Label(0, 0, 500, 500, LIGHT_RED)
-       win.set_text("Waktunya sudah habis!!!", 60, DARK_BLUE)
+       win.set_text("Waktunya sudah habis!", 60, DARK_BLUE)
        win.draw(110, 180)
        break
  
