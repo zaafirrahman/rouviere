@@ -136,7 +136,7 @@ while True:
        win.set_text("Anda menang!!!", 60, DARK_BLUE)
        win.draw(140, 180)
        resul_time = Label(90, 230, 250, 250, LIGHT_GREEN)
-       resul_time.set_text("Waktu untuk menyelesaikan: " + str (int(new_time - start_time)) + " detik", 30, DARK_BLUE)
+       resul_time.set_text("Waktu untuk menyelesaikan " + str (int(new_time - start_time)) + " detik", 30, DARK_BLUE)
        resul_time.draw(0, 0)
        break
 
